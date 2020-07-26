@@ -1,6 +1,6 @@
 import pandas as pd 
 
-gamesdata = pd.read_csv("games.csv")
+gamesdata = pd.read_csv("data/games.csv")
 
 # Adds the total points scored in a game to the end of the dataframe
 point_total= gamesdata.PTS_home + gamesdata.PTS_away
